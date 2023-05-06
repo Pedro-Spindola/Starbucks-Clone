@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.container
+{
+    display: flex;
+    max-width: 1200px;
+    padding:0 2%;
+    margin:0 auto;
+    flex-wrap: wrap;
+    border: 2px solid rgb(30, 255, 0);
+}
+header{
+    display: flex;
+    padding:0 2%;
+    margin:0 auto;
+    flex-wrap: wrap;
+    box-shadow:  1px 1px 3px #a3bbb4;
+}
+.navegation{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.nav1{
+    position: relative;
+    height: 80px;
+    width: 8%;
+}
+.nav1 img{
+    width: 60px;
+    position: absolute;
+    padding-top: 20px;
+}
+.nav2{
+    width: 45%;
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+ul li{
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav3{
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    width: 47%;
+}
+.nav3 .historia_logo{
+    width: 120px;
+}
+.nav3 h2{
+    font-size: 14px;
+    font-weight: 600;
+    align-self: center;
+}
+.nav3 button{
+    align-self: center;
+    height: 34px;
+    border: none;
+    margin: 0px 5px;
+    border-radius: 16px;
+    font-weight: 600;
+}
+.nav3 .bnt_entrar{
+    width: 70px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+.nav3 .bnt_agora{
+    width: 140px;
+    color: white;
+    background-color: black;
+}
+.slider_home > .container{
+    padding: 0px;
+    width: 100%;
+}
+.slider_single{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.slider_single img{
+    background-position: center;
+}
+.sobre1{
+    background-color: #d4e9e2;
+    padding-bottom: 30px;
+}
+.sobre1 > .container{
+    justify-content: center;
+    padding: 30px 0.2%;
+}
+.sobre1 h2{
+    padding: 0px 200px;
+    font-size: 18px;
+    text-align: center;
+}
+.sobre1 button{
+    margin-top: 30px;
+}
+.btn_saiba{
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+    border: 1px solid black;
+    transition: 0.6s;
+}
+.btn_saiba:hover{
+    scale: 0.9;
+    box-shadow:  5px 5px 15px #a3bbb4;
+    transition: 0.6s;
+}
